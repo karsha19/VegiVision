@@ -9,9 +9,9 @@ services:
       - key: VITE_GEMINI_API_KEY
         sync: false
       - key: VITE_GEMINI_VISION_MODEL
-        value: gemini-1.5-flash
+        value: gemini-flash-lite-latest
       - key: VITE_GEMINI_TEXT_MODEL
-        value: gemini-1.5-flash
+        value: gemini-flash-lite-latest
     routes:
       - type: rewrite
         source: /*

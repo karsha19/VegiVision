@@ -63,8 +63,4 @@ npm run build
 npm run preview
 ```
 
-## Notes
 
-- Recipe images use Unsplash source URLs as placeholders (swap in an image-gen
-  API in `geminiService.js` if you want fully AI-generated recipe photography).
-- PDF export uses `html2canvas` + `jsPDF` to snapshot the recipe detail card.
